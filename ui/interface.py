@@ -23,20 +23,17 @@ class GameInterface:
         screen.fill(self.BLACK)
         self.__game_engine.lay_car(self.WIDTH // 2, self.HEIGHT // 2)
         # self.display_car(screen)
-        pygame.display.update()
+
         return screen
 
-    # def remove_car(self, screen, x, y):
-    #     pygame.draw.rect(screen, self.BLACK, (x, y, *self.__game_engine.get_car_size()))
-    #     pygame.display.update()
+    def maintain_static_screen(self, screen):
+        pygame.draw.line(screen, self.WHITE, (150, 0), (150, 800))
+        pygame.draw.line(screen, self.WHITE, (1050, 0), (1050, 800))
+        pygame.display.flip()
 
-    # def display_car(self, screen):
-    #     screen.fill(self.BLACK)
-    #     pygame.draw.rect(screen, self.__game_engine.get_car_rect)
-    #     pygame.display.update()
-
-    def update_car(self, screen, reverse):
+    def update_car(self, reverse):
         # self.remove_car(screen, *self.__game_engine.get_car_pos())
+        # if self.__game_engine.check_car_on_road(5, reverse):
         self.__game_engine.move_car(5, reverse)
         # self.display_car(screen, *self.__game_engine.get_car_pos())
 
@@ -83,7 +80,7 @@ class GameInterface:
 
 
                 if advance or reverse:
-                    self.update_car(screen, reverse)
+                    self.update_car(reverse)
                 if change_direction != False and not advance:
                     self.change_car_direction(change_direction)
 
@@ -92,6 +89,7 @@ class GameInterface:
                 screen.fill(self.BLACK)
                 self.__all_sprites.draw(screen)
                 pygame.display.flip()
+                self.maintain_static_screen(screen)
 
         pygame.quit()
 

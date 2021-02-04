@@ -17,6 +17,12 @@ class GameEngine:
     #     return (self.__car.width, self.__car.height)
 
     def lay_car(self, x, y):
+        '''
+        set new center for car obj
+        :param x:
+        :param y:
+        :return:
+        '''
         self.__car.center(x, y)
 
     def get_car_rect(self):
@@ -31,6 +37,7 @@ class GameEngine:
         :param speed:how far it should move (int)
         :return:-
         '''
+        #move in the opp dir if backwards is 180
         backwards = 0
         if reverse:
             backwards = 180
@@ -39,7 +46,8 @@ class GameEngine:
         ox, oy = self.__car.rect.centerx, self.__car.rect.centery
         dx = ox + math.cos(math.radians(self.__car.direction_angle + backwards))*speed
         dy = oy + math.sin(math.radians(self.__car.direction_angle + backwards))*speed
-        self.lay_car(dx, dy)
+        if dx > 171 and dx < 1030 and dy > 20 and dy < 780:
+            self.lay_car(dx, dy)
 
 
     # def get_car_pos(self):
@@ -52,3 +60,6 @@ class GameEngine:
         '''
         self.__car.modify_direction_angle(n)
         self.__car.modify_direction_image()
+
+    # def check_car_on_road(self, speed):
+    #     if self.__car.rect.centerx
