@@ -25,6 +25,7 @@ class GameEngine:
     def move_car(self, speed, reverse):
         '''
         update car position by canging it s coordonates based on the current direction
+        imagine having a circle with the origin in ox, oy and with radius 1, on which will be represented the direction
         for more detail on the formula:
         https://math.stackexchange.com/questions/1384994/rotate-a-point-on-a-circle-with-known-radius-and-position
         :param speed:how far it should move (int)
@@ -50,5 +51,4 @@ class GameEngine:
         :return:
         '''
         self.__car.modify_direction_angle(n)
-
-
+        self.__car.modify_direction_image()
