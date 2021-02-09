@@ -32,10 +32,7 @@ class GameInterface:
         pygame.display.flip()
 
     def update_car(self, reverse):
-        # self.remove_car(screen, *self.__game_engine.get_car_pos())
-        # if self.__game_engine.check_car_on_road(5, reverse):
         self.__game_engine.move_car(5, reverse)
-        # self.display_car(screen, *self.__game_engine.get_car_pos())
 
     def change_car_direction(self, key):
         if key == 'left':
@@ -44,20 +41,29 @@ class GameInterface:
             self.__game_engine.change_car_direction(30)
 
 
-    def move_car(self , x, y):
-        self.__game_engine.move_car(x, y)
+    # def move_car(self , x, y):
+    #     self.__game_engine.move_obj(x, y)
+
+    def update_troll(self):
+        #replace 2 with max no of trolls on screen
+        for i in range(5 - self.__game_engine.get_dead_trolls()):
+            self.__game_engine.move_troll(3, i)
 
     def run_game(self):
         run = True
         clock = pygame.time.Clock()
         screen = self.create_screen()
         advance, reverse, change_direction = False, False, False
+
         while run:
             clock.tick(self.FPS)
-
+            self.__game_engine.spawn_trolls()
+            self.update_troll()
             for event in pygame.event.get():
+
                 if event.type == pygame.QUIT:
                     run = False
+
 
 
                 if event.type == pygame.KEYDOWN:
@@ -84,12 +90,14 @@ class GameInterface:
                 if change_direction != False and not advance:
                     self.change_car_direction(change_direction)
 
-                self.__all_sprites.update()
 
-                screen.fill(self.BLACK)
-                self.__all_sprites.draw(screen)
-                pygame.display.flip()
-                self.maintain_static_screen(screen)
+
+            self.__all_sprites.update()
+            screen.fill(self.BLACK)
+            self.__all_sprites.draw(screen)
+            self.maintain_static_screen(screen)
+            pygame.display.flip()
+
 
         pygame.quit()
 

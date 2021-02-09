@@ -27,7 +27,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/faculta/python/lucianVrabiescu917" />
+    <property name="last_opened_file_path" value="D:/faculta/python/915-Muresan-Vlad" />
   </component>
   <component name="RunManager" selected="Python.interface">
     <configuration name="board" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -91,7 +91,7 @@
       <updated>1612291666278</updated>
       <workItem from="1612291667360" duration="7477000" />
       <workItem from="1612367774667" duration="16633000" />
-      <workItem from="1612419697054" duration="12898000" />
+      <workItem from="1612419697054" duration="18338000" />
     </task>
     <servers />
   </component>
@@ -99,41 +99,42 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1180" y="34" key="FileChooserDialogImpl" timestamp="1612386334560">
-      <screen x="-1920" y="-241" width="1920" height="1040" />
+    <state x="592" y="218" key="FileChooserDialogImpl" timestamp="1612517798485">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-1180" y="34" key="FileChooserDialogImpl/0.0.1536.824/-1920.-241.1920.1040@-1920.-241.1920.1040" timestamp="1612386334560" />
-    <state width="1877" height="351" key="GridCell.Tab.0.bottom" timestamp="1612470496033">
-      <screen x="-1920" y="-228" width="1920" height="1040" />
+    <state x="592" y="218" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1612517798485" />
+    <state width="1877" height="351" key="GridCell.Tab.0.bottom" timestamp="1612512696955">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.-228.1920.1040@-1920.-228.1920.1040" timestamp="1612470496033" />
+    <state width="1877" height="351" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.-228.1920.1040@-1920.-228.1920.1040" timestamp="1612471814739" />
     <state width="1877" height="351" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.-241.1920.1040@-1920.-241.1920.1040" timestamp="1612465253828" />
     <state width="1493" height="197" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.-241.1920.1040@0.0.1536.824" timestamp="1612341127821" />
-    <state width="1493" height="264" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1612389492681" />
-    <state width="1877" height="351" key="GridCell.Tab.0.center" timestamp="1612470496033">
-      <screen x="-1920" y="-228" width="1920" height="1040" />
+    <state width="1877" height="351" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1612512696955" />
+    <state width="1877" height="351" key="GridCell.Tab.0.center" timestamp="1612512696955">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.0.center/0.0.1536.824/-1920.-228.1920.1040@-1920.-228.1920.1040" timestamp="1612470496033" />
+    <state width="1877" height="351" key="GridCell.Tab.0.center/0.0.1536.824/-1920.-228.1920.1040@-1920.-228.1920.1040" timestamp="1612471814739" />
     <state width="1877" height="351" key="GridCell.Tab.0.center/0.0.1536.824/-1920.-241.1920.1040@-1920.-241.1920.1040" timestamp="1612465253828" />
     <state width="1493" height="197" key="GridCell.Tab.0.center/0.0.1536.824/-1920.-241.1920.1040@0.0.1536.824" timestamp="1612341127821" />
-    <state width="1493" height="264" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1612389492681" />
-    <state width="1877" height="351" key="GridCell.Tab.0.left" timestamp="1612470496033">
-      <screen x="-1920" y="-228" width="1920" height="1040" />
+    <state width="1877" height="351" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1612512696955" />
+    <state width="1877" height="351" key="GridCell.Tab.0.left" timestamp="1612512696955">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.0.left/0.0.1536.824/-1920.-228.1920.1040@-1920.-228.1920.1040" timestamp="1612470496033" />
+    <state width="1877" height="351" key="GridCell.Tab.0.left/0.0.1536.824/-1920.-228.1920.1040@-1920.-228.1920.1040" timestamp="1612471814738" />
     <state width="1877" height="351" key="GridCell.Tab.0.left/0.0.1536.824/-1920.-241.1920.1040@-1920.-241.1920.1040" timestamp="1612465253827" />
     <state width="1493" height="197" key="GridCell.Tab.0.left/0.0.1536.824/-1920.-241.1920.1040@0.0.1536.824" timestamp="1612341127821" />
-    <state width="1493" height="264" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1612389492681" />
-    <state width="1877" height="351" key="GridCell.Tab.0.right" timestamp="1612470496033">
-      <screen x="-1920" y="-228" width="1920" height="1040" />
+    <state width="1877" height="351" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1612512696955" />
+    <state width="1877" height="351" key="GridCell.Tab.0.right" timestamp="1612512696955">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.0.right/0.0.1536.824/-1920.-228.1920.1040@-1920.-228.1920.1040" timestamp="1612470496033" />
+    <state width="1877" height="351" key="GridCell.Tab.0.right/0.0.1536.824/-1920.-228.1920.1040@-1920.-228.1920.1040" timestamp="1612471814739" />
     <state width="1877" height="351" key="GridCell.Tab.0.right/0.0.1536.824/-1920.-241.1920.1040@-1920.-241.1920.1040" timestamp="1612465253828" />
     <state width="1493" height="197" key="GridCell.Tab.0.right/0.0.1536.824/-1920.-241.1920.1040@0.0.1536.824" timestamp="1612341127821" />
-    <state width="1493" height="264" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1612389492681" />
+    <state width="1877" height="351" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1612512696955" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SpeedBumps$board.coverage" NAME="board Coverage Results" MODIFIED="1612367780190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/domain" />
-    <SUITE FILE_PATH="coverage/SpeedBumps$interface.coverage" NAME="interface Coverage Results" MODIFIED="1612470496022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ui" />
+    <SUITE FILE_PATH="coverage/SpeedBumps$interface.coverage" NAME="interface Coverage Results" MODIFIED="1612512696947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ui" />
   </component>
 </project>
